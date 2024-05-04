@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto GTA</title>
+    <link rel="shortcut icon" href="src/imagens/favicon.png" type="image/x-icon" />
+    <link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="./src/imagens/logo-rockstar.svg" alt="Logo Rockstar Games" />
+            <hr />
+            <img src="src/imagens/logo-gta.svg" alt="Logo GTA V" />
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#home">home</a>
+                </li>
+                <li>
+                    <a href="#comprar">comprar</a>
+                </li>
+                <li>
+                    <a href="https://support.rockstargames.com/categories/200013306" target="_blank">suporte <img src="./src/imagens/icone-link.svg" alt="icone de link de suporte"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home" id="home">
+        <img class="imagem-fundo" src="./src/imagens/bg-main.png"
+            alt="rapaz de moletom laranja ao lado de um carro esportivo amarelo">
+
+        <div class="informacoes">
+            <div class="lista de jogos">
+                <img src="./src/imagens/logo-gta-v.svg" alt="logo GTA V">
+                <img src="src/imagens/logo-gta-online.svg" alt="logo gta online">
+            </div>
+            <h1 class="titulo">já disponiveis para playstation 5 e xbox series x|s</h1>
+            <p class="texto">
+                experimente os fênomenos de entretenimento grand theft auto V e GTA ONLINE
+            </p>
+            <a class="btn-comprar" href="#comprar">Compre já</a>
+        </div>
+    </main>
+    <section class="compre-ja" id="comprar">
+        <h2 class="titulo"> Compre Já</h2>
+        <div class="cartao">
+            <img class="capa-do-jogo" src="./src/imagens/gta5.jpg" alt="capa do jogo gta v">
+
+            <div class="informacoes">
+                <h3>Grand Theft Auto V</h3>
+                <p>
+                    Inclui <strong>modo historia do GTA V</strong> e <strong>GTA ONLINE</strong>
+                </p>
+                <ul class="plataformas">
+                    <li><img src="./src/imagens/logo-ps5.svg" alt="logo playstation 5"></li>
+                    <li>
+                        <img src="./src/imagens/logo-xbox-series-s.svg" alt="logo Xbox series x|s">
+                    </li>
+                    <li>
+                        <img src="./src/imagens/logo-ps4.svg" alt="logo playstation 4">
+                    </li>
+                    <li>
+                        <img src="./src/imagens/logo-xbox-one.svg" alt="logo xbox one">
+                    </li>
+                    <li>
+                        <img src="./src/imagens/logo-pc.svg" alt="logo logo PC">
+                    </li>
+                </ul>
+            </div>
+            <button class="btn-plataforma">
+                selecione a plataforma
+
+                <ul class="plataformas">
+                    <li><img src="./src/imagens/logo-ps5.svg" alt="logo playstation 5"></li>
+                    <li>
+                        <img src="./src/imagens/logo-xbox-series-s.svg" alt="logo Xbox series x|s">
+                    </li>
+                    <li>
+                        <img src="./src/imagens/logo-ps4.svg" alt="logo playstation 4">
+                    </li>
+                    <li>
+                        <img src="./src/imagens/logo-xbox-one.svg" alt="logo xbox one">
+                    </li>
+                    <li>
+                        <img src="./src/imagens/logo-pc.svg" alt="logo PC">
+                    </li>
+                </ul>
+
+            </button>
+        </div>
+    </section>
+    <script src="./src/js/index.js"></script>
+</body>
+
+
+<div class="galeria">
+
+     <p class="text-galery"  style="font-size: 500%;">GALERIA</p>
+   
+
+    <button class="gl"><img src="./src/imagens/img (2).jpg" style="max-width: 350px;" alt=""></button>
+
+    <button class="gl"> <img src="./src/imagens/img (3).webp" style="max-width: 350px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (4).webp" style="max-width: 350px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (5).jpg" style="max-width: 350px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (6).webp" style="max-width: 350px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (7).jpg" style="width: 350px; height: 197px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (8).jpg" style="max-width: 350px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (9).jpg" style="width: 350px; height: 197px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (10).jpg" style="width: 350px; height: 197px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (11).jpg" style="width: 350px; height: 197px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (12).webp" style="max-width: 350px;" alt=""></button>
+
+    <button class="gl"><img src="./src/imagens/img (13).jpg" style="max-width: 350px;" alt=""></button>
+
+    <div id="modal" class="modal">
+        <span class="fechar">&times;</span>
+        <img class="modal-conteudo" id="imagem-ampliada">
+    </div>
+</div>
+
+<script src="index.js"></script> 
+</body>
+</html>
+    </div>
